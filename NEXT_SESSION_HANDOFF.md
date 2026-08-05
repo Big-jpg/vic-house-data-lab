@@ -1,5 +1,7 @@
 # Next session handoff
 
+> **Rebase baseline note (2026-08-05):** On branch `codex/rebase-platform-baseline`, this handoff is retained as historical Phase 2C-B evidence. Read `REBASE_PLATFORM_BASELINE.md` first. The new baseline is intentionally cut from `08a9bd6`; it does not authorize Phase 2C-C, D1, deployment, migration, or external mutation.
+
 Last verified: 2026-08-03 (Australia/Perth)
 
 Phase 2C-B is complete at its local and disposable-database boundary. Git contains the implementation and rehearsal through `36ffc64`, but production deployment and migration 016 remain unverified. Re-establish production truth, close the Phase 2C-B release gate only with owner approval, then treat Phase 2C-C as the next implementation phase.
